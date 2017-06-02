@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.tabledate.TripAdvisor">
+      <class name="com.tabledate.SkyScanner">
         <methods>
           <include name="selectDate"/>
         </methods>
-      </class> <!-- com.tabledate.TripAdvisor -->
+      </class> <!-- com.tabledate.SkyScanner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
