@@ -44,7 +44,7 @@ public class SkyScanner {
 	    			currentmonth = calmonth.getText();
 	    			if(currentmonth.equals(selectmonth)){
 	    				System.out.println("selected month"+currentmonth);
-	    	    		    	    		
+	    	    		   break; 	    		
 	    	    	}
 	    		}
 	    	}
