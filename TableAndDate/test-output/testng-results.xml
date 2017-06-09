@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9872" started-at="2017-06-09T06:33:57Z" finished-at="2017-06-09T06:34:07Z">
+  <suite name="Default suite" duration-ms="10166" started-at="2017-06-09T11:19:05Z" finished-at="2017-06-09T11:19:15Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9872" started-at="2017-06-09T06:33:57Z" finished-at="2017-06-09T06:34:07Z">
-      <class name="com.tabledate.TakesScreenShot">
-        <test-method status="PASS" signature="screenShot()[pri:0, instance:com.tabledate.TakesScreenShot@1f3ddb1]" name="screenShot" duration-ms="9814" started-at="2017-06-09T12:03:57Z" finished-at="2017-06-09T12:04:07Z">
+    <test name="Default test" duration-ms="10166" started-at="2017-06-09T11:19:05Z" finished-at="2017-06-09T11:19:15Z">
+      <class name="com.tabledate.ScrollPage">
+        <test-method status="PASS" signature="scroll()[pri:0, instance:com.tabledate.ScrollPage@1f3ddb1]" name="scroll" duration-ms="10116" started-at="2017-06-09T16:49:05Z" finished-at="2017-06-09T16:49:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- screenShot -->
-      </class> <!-- com.tabledate.TakesScreenShot -->
+        </test-method> <!-- scroll -->
+      </class> <!-- com.tabledate.ScrollPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

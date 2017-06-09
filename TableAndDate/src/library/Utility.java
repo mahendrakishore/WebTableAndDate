@@ -14,7 +14,7 @@ public class Utility {
 		 try{  TakesScreenshot tss =   (TakesScreenshot)driver;
 		   File file = tss.getScreenshotAs(OutputType.FILE);
 		   FileUtils.copyFile(file, new File("./Screenshot/"+name+".png"));
-		   System.out.println("Screenshot not taken");}
+		   System.out.println("Screenshot  taken");}
 		 catch(Exception e){
 			 System.out.println("Screenshot not captured");
 		 }
