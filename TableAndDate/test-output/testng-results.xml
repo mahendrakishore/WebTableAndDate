@@ -1,17 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10166" started-at="2017-06-09T11:19:05Z" finished-at="2017-06-09T11:19:15Z">
+  <suite name="Default suite" duration-ms="71" started-at="2017-06-09T14:10:58Z" finished-at="2017-06-09T14:10:58Z">
     <groups>
+      <group name="test">
+        <method signature="TestNGDemo.test1()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="test1" class="com.tabledate.TestNGDemo"/>
+        <method signature="TestNGDemo.test2()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="test2" class="com.tabledate.TestNGDemo"/>
+      </group> <!-- test -->
     </groups>
-    <test name="Default test" duration-ms="10166" started-at="2017-06-09T11:19:05Z" finished-at="2017-06-09T11:19:15Z">
-      <class name="com.tabledate.ScrollPage">
-        <test-method status="PASS" signature="scroll()[pri:0, instance:com.tabledate.ScrollPage@1f3ddb1]" name="scroll" duration-ms="10116" started-at="2017-06-09T16:49:05Z" finished-at="2017-06-09T16:49:15Z">
+    <test name="Default test" duration-ms="71" started-at="2017-06-09T14:10:58Z" finished-at="2017-06-09T14:10:58Z">
+      <class name="com.tabledate.TestNGDemo">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="beforeSuite" is-config="true" duration-ms="18" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scroll -->
-      </class> <!-- com.tabledate.ScrollPage -->
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="test" duration-ms="15" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="test1" duration-ms="2" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="test2" duration-ms="2" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="afterTest" is-config="true" duration-ms="1" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.tabledate.TestNGDemo@1832929]" name="afterSuite" is-config="true" duration-ms="1" started-at="2017-06-09T19:40:58Z" finished-at="2017-06-09T19:40:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.tabledate.TestNGDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
