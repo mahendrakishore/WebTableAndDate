@@ -1,0 +1,6 @@
+2017-06-15 21:27:32,471 - Log4jBaseClass2 -INFO - @BeforeMethod
+2017-06-15 21:27:53,636 - Log4jBaseClass2 -INFO - @Test valid login
+2017-06-15 21:27:57,828 - Log4jBaseClass2 -INFO - @AfterMethod
+2017-06-15 21:28:09,046 - Log4jBaseClass2 -INFO - @BeforeMethod
+2017-06-15 21:28:12,754 - Log4jBaseClass2 -INFO - @Test invalid login
+2017-06-15 21:28:13,733 - Log4jBaseClass2 -INFO - @AfterMethod

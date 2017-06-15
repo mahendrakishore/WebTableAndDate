@@ -3,12 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.tabledate.TakesScreenShot">
+      <class name="com.wordpress.script.TestLoginPF2">
         <methods>
-          <include name="screenShot"/>
-          <include name="takeScree"/>
+          <include name="loginTest"/>
         </methods>
-      </class> <!-- com.tabledate.TakesScreenShot -->
+      </class> <!-- com.wordpress.script.TestLoginPF2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
