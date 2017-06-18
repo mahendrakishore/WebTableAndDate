@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.wordpress.script.TestLoginPF2">
+      <class name="com.testng.RetryTestng">
         <methods>
-          <include name="loginTest"/>
+          <include name="fail"/>
         </methods>
-      </class> <!-- com.wordpress.script.TestLoginPF2 -->
+      </class> <!-- com.testng.RetryTestng -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

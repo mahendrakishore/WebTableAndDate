@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 public class DemoTour {
@@ -25,7 +26,15 @@ public class DemoTour {
 		int rs = radios.size();
 		for(int i=0;i<rs;i++){
 			if(radios.get(i).getAttribute("value").equals("oneway")){
-				radios.get(i).click();	}		}
-	}
+				radios.get(i).click();	}		}	}
 
+	@Test
+	public void test(){
+		Actions actions = new Actions(driver);
+		WebElement we1 = driver.findElement(By.xpath(""));
+		WebElement we2 = driver.findElement(By.xpath(""));
+		actions.dragAndDrop(we1, we2);
+		actions.moveToElement(we2);
+	}
+	
 }

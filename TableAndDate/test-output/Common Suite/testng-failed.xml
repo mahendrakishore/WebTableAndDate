@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Common Suite]">
+  <listeners>
+    <listener class-name="com.testng.CustomeListerner"/>
+  </listeners>
+  <test name="Result Test(failed)">
+    <classes>
+      <class name="com.testng.Testngtest5">
+        <methods>
+          <include name="testFail"/>
+        </methods>
+      </class> <!-- com.testng.Testngtest5 -->
+    </classes>
+  </test> <!-- Result Test(failed) -->
+</suite> <!-- Failed suite [Common Suite] -->
