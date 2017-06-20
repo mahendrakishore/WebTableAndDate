@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed Suite">
+  <test name="Test">
+    <classes>
+      <class name="com.autorunfailedtc.Test1"/>
+      <class name="com.autorunfailedtc.Test2"/>
+      <class name="com.autorunfailedtc.Test3"/>
+      <class name="com.autorunfailedtc.Test4"/>
+      <class name="com.autorunfailedtc.Test5"/>
+      <class name="com.autorunfailedtc.Test6"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
