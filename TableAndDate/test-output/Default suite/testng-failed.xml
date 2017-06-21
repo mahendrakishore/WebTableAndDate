@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.testng.RetryTestng">
+      <class name="com.reports.ExtentReportsDemo2">
         <methods>
-          <include name="fail"/>
+          <include name="verify"/>
+          <include name="beforeMethod"/>
+          <include name="teaDown"/>
         </methods>
-      </class> <!-- com.testng.RetryTestng -->
+      </class> <!-- com.reports.ExtentReportsDemo2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

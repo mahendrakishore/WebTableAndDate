@@ -1,23 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.listener.TestngListener"/>
+  </listeners>
   <test name="Test(failed)">
     <classes>
-      <class name="com.autorunfailedtc.Test4">
+      <class name="com.listener.ListenerTest">
         <methods>
-          <include name="test1"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- com.autorunfailedtc.Test4 -->
-      <class name="com.autorunfailedtc.Test6">
-        <methods>
-          <include name="test1"/>
-        </methods>
-      </class> <!-- com.autorunfailedtc.Test6 -->
-      <class name="com.autorunfailedtc.Test5">
-        <methods>
-          <include name="test1"/>
-        </methods>
-      </class> <!-- com.autorunfailedtc.Test5 -->
+      </class> <!-- com.listener.ListenerTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

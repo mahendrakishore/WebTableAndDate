@@ -56,5 +56,7 @@
 	<classpathentry kind="lib" path="C:/selenium drivers/XSLT Report/XSLT Report/lib/saxon-8.7.jar"/>
 	<classpathentry kind="lib" path="C:/selenium drivers/XSLT Report/XSLT Report/lib/SaxonLiaison.jar"/>
 	<classpathentry kind="lib" path="C:/selenium drivers/sikuli-script.jar"/>
+	<classpathentry kind="lib" path="C:/selenium drivers/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="C:/selenium drivers/freemarker-2.3.23.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

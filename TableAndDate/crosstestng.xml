@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="ChromeTest">
+    <parameter name="bname" value="chrome"></parameter>
+  <classes>
+  <class name="com.crossbrowsing.CrossBrowsing"></class>
+  </classes>  
+  </test> <!-- Test -->
+    <test name="FfTest">
+    <parameter name="bname" value="firefox"></parameter>
+  <classes>
+  <class name="com.crossbrowsing.CrossBrowsing"></class>
+  </classes>  
+  </test> <!-- Test -->
+    <test name="IETest">
+    <parameter name="bname" value="ie"></parameter>
+  <classes>
+  <class name="com.crossbrowsing.CrossBrowsing"></class>
+  </classes>  
+  </test> <!-- Test -->
+ 
+</suite> <!-- Suite -->
