@@ -2,27 +2,41 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52347" started-at="2017-06-21T13:07:45Z" finished-at="2017-06-21T13:08:37Z">
+  <suite name="Default suite" duration-ms="16992" started-at="2017-06-22T11:45:37Z" finished-at="2017-06-22T11:45:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52347" started-at="2017-06-21T13:07:45Z" finished-at="2017-06-21T13:08:37Z">
-      <class name="com.reports.ExtentReportsDemo2">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.reports.ExtentReportsDemo2@17b4cdf]" name="beforeMethod" is-config="true" duration-ms="23" started-at="2017-06-21T18:37:45Z" finished-at="2017-06-21T18:37:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="verify()[pri:0, instance:com.reports.ExtentReportsDemo2@17b4cdf]" name="verify" duration-ms="35429" started-at="2017-06-21T18:37:45Z" finished-at="2017-06-21T18:38:20Z">
-          <exception class="java.lang.AssertionError">
+    <test name="Default test" duration-ms="16992" started-at="2017-06-22T11:45:37Z" finished-at="2017-06-22T11:45:54Z">
+      <class name="com.pratice.YahooMail">
+        <test-method status="FAIL" signature="login()[pri:0, instance:com.pratice.YahooMail@3bd550]" name="login" duration-ms="16877" started-at="2017-06-22T17:15:37Z" finished-at="2017-06-22T17:15:54Z">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[expected [true] but found [false]]]>
+              <![CDATA[
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'MAHEN-PC', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mahen\AppData\Local\Temp\rust_mozprofile.07ilyBPnd85K, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=5672, browserName=firefox, platformName=windows_nt}]
+Session ID: f4ab785a-893a-4481-848a-8e1741066250]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-	at org.testng.Assert.fail(Assert.java:93)
-	at org.testng.Assert.failNotEquals(Assert.java:512)
-	at org.testng.Assert.assertTrue(Assert.java:41)
-	at org.testng.Assert.assertTrue(Assert.java:51)
-	at com.reports.ExtentReportsDemo2.verify(ExtentReportsDemo2.java:54)
+              <![CDATA[org.openqa.selenium.WebDriverException: 
+Build info: version: '3.3.1', revision: '5234b32', time: '2017-03-10 09:04:52 -0800'
+System info: host: 'MAHEN-PC', ip: '192.168.0.101', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\mahen\AppData\Local\Temp\rust_mozprofile.07ilyBPnd85K, rotatable=false, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0, platformVersion=6.1, moz:processID=5672, browserName=firefox, platformName=windows_nt}]
+Session ID: f4ab785a-893a-4481-848a-8e1741066250
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:99)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:43)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:274)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.pratice.YahooMail.login(YahooMail.java:25)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -50,22 +64,11 @@
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verify -->
-        <test-method status="PASS" signature="teaDown(org.testng.ITestResult)[pri:0, instance:com.reports.ExtentReportsDemo2@17b4cdf]" name="teaDown" is-config="true" duration-ms="16762" started-at="2017-06-21T18:38:20Z" finished-at="2017-06-21T18:38:37Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=verify status=FAILURE method=ExtentReportsDemo2.verify()[pri:0, instance:com.reports.ExtentReportsDemo2@17b4cdf] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teaDown -->
-      </class> <!-- com.reports.ExtentReportsDemo2 -->
+        </test-method> <!-- login -->
+      </class> <!-- com.pratice.YahooMail -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

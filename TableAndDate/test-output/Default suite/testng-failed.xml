@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.reports.ExtentReportsDemo2">
+      <class name="com.pratice.YahooMail">
         <methods>
-          <include name="verify"/>
-          <include name="beforeMethod"/>
-          <include name="teaDown"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.reports.ExtentReportsDemo2 -->
+      </class> <!-- com.pratice.YahooMail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

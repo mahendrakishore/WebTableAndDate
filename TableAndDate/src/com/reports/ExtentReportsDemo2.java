@@ -34,8 +34,9 @@ public class ExtentReportsDemo2 {
 	}
 	
 	@BeforeMethod
-	public void beforeMethod(){
-		test = reports.startTest("verify test");	
+	public void beforeMethod(ITestResult result){
+		//test = reports.startTest("verify test");	
+		test = reports.startTest(result.getName());
 		test.log(LogStatus.INFO, "before each method");
 	}
 	
