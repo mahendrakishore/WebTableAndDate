@@ -58,5 +58,14 @@
 	<classpathentry kind="lib" path="C:/selenium drivers/sikuli-script.jar"/>
 	<classpathentry kind="lib" path="C:/selenium drivers/extentreports-2.41.2.jar"/>
 	<classpathentry kind="lib" path="C:/selenium drivers/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/cucmber jar/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/cucmber jar/cucumber-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/cucmber jar/cucumber-java-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/cucmber jar/cucumber-junit-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/cucmber jar/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/cucmber jar/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/cucmber jar/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/cucmber jar/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/cucmber jar/mockito-all-2.0.2-beta.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
