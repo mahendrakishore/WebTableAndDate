@@ -15,6 +15,7 @@ public class MultipleAutoITDemo {
 		driver = new ChromeDriver();
 		driver.get("C:\\Users\\mahen\\Desktop\\uploadfile.html");
 		driver.findElement(By.name("resumeupload")).click();
+		Thread.sleep(5000);
 		Runtime.getRuntime().exec("C:\\Users\\mahen\\Desktop\\AutoIT\\MultiplefileuploadScript.exe"+" "+"C:\\Users\\mahen\\Desktop\\websitetoautomate.txt");
 		Thread.sleep(5000);
 		driver.findElement(By.name("resumeupload")).click();

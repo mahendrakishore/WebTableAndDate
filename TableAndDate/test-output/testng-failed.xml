@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.pratice.YahooMail">
+      <class name="com.pratice.AssertDemo">
         <methods>
-          <include name="login"/>
+          <include name="asserd"/>
         </methods>
-      </class> <!-- com.pratice.YahooMail -->
+      </class> <!-- com.pratice.AssertDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
